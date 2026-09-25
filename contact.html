@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | North Star Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact North Star Bakery</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Get in Touch</h2>
+
+            <p>
+                We would love to hear from you. Use the form below
+                to ask a question, share feedback, or learn more
+                about North Star Bakery.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <p>
+                        <label for="name">Full Name:</label>
+                        <input type="text"
+                               id="name"
+                               name="name"
+                               required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel"
+                               id="phone"
+                               name="phone">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <p>
+                        <label for="subject">Subject:</label>
+                        <select id="subject"
+                                name="subject"
+                                required>
+                            <option value="">Choose a subject</option>
+                            <option value="products">Product Question</option>
+                            <option value="order">Order Information</option>
+                            <option value="feedback">Customer Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label>
+                        <textarea id="message"
+                                  name="message"
+                                  rows="6"
+                                  cols="40"
+                                  required></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
