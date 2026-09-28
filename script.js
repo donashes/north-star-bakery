@@ -130,6 +130,7 @@ function validateContactForm(event) {
     "northStarCustomer",
     JSON.stringify(customerData)
   );
+  alert("Thank you! Your message has been submitted successfully.");
 }
 
 // Restore saved customer information
