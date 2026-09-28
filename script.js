@@ -75,6 +75,7 @@ function displayFavorites() {
 
 // Validate the contact form
 function validateContactForm(event) {
+  event.preventDefault();
   const form = event.target;
 
   const nameField = form.querySelector("#name");
@@ -117,7 +118,7 @@ function validateContactForm(event) {
   }
 
   if (!isValid) {
-    event.preventDefault();
+   
     return;
   }
 
