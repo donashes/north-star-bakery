@@ -37,7 +37,7 @@
         <section>
             <h2>Contact Form</h2>
 
-            <form action="#" method="post">
+           <form id="contact-form" action="#" method="post" novalidate>
 
                 <fieldset>
                     <legend>Your Information</legend>
@@ -48,6 +48,7 @@
                                id="name"
                                name="name"
                                required>
+                        <span id="name-error" class="error-message"></span>
                     </p>
 
                     <p>
@@ -56,6 +57,7 @@
                                id="email"
                                name="email"
                                required>
+                        <span id="email-error" class="error-message"></span>
                     </p>
 
                     <p>
@@ -89,6 +91,7 @@
                                   rows="6"
                                   cols="40"
                                   required></textarea>
+                        <span id="message-error" class="error-message"></span>
                     </p>
                 </fieldset>
 
@@ -104,6 +107,7 @@
     <footer>
         <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
