@@ -79,11 +79,43 @@
             </article>
         </section>
 
+        <section class="favorites-section">
+    <h2>Choose Your Bakery Favorites</h2>
+    <p>
+        Select your favorite North Star Bakery products.
+        Your choices will be saved for your next visit.
+    </p>
+
+    <div class="favorite-buttons">
+        <button type="button" onclick="toggleFavorite('Fresh Bread')">
+            ♡ Fresh Bread
+        </button>
+
+        <button type="button" onclick="toggleFavorite('Cupcakes')">
+            ♡ Cupcakes
+        </button>
+
+        <button type="button" onclick="toggleFavorite('Cookies')">
+            ♡ Cookies
+        </button>
+
+        <button type="button" onclick="toggleFavorite('Custom Cakes')">
+            ♡ Custom Cakes
+        </button>
+    </div>
+
+    <h3>Your Saved Favorites</h3>
+    <ul id="favorites-list">
+        <li>You have not selected any favorites yet.</li>
+    </ul>
+</section>
+
     </main>
 
     <footer>
         <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
